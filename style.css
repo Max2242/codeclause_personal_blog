@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 243, 240);
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    margin: .5em;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 5em 10em 5em;
+    font-size: 1.5em;
+    color: rgb(136, 255, 0);
+}
+.logo{
+    margin-right: 23em;
+    width: 11rem;
+}
+.rght{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 2em;
+}
+.rght a{
+    margin: 0 1.5em;
+}
+.devInfo{
+    
+    display: flex;
+    justify-items: center;
+    margin: 4em 2em 0 2em;
+    width: 635px;
+}
+  .wave{
+    margin: auto;
+    position: relative;
+    font-size: 5em;
+    display: flex;
+    flex-direction: row;
+  }
+  .wave span{
+    background: -webkit-linear-gradient(#25ee68,#21f8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: wave 2s infinite;
+    animation-delay: calc(.2s*var(--i));
+    font-weight: 1000;
+  }
+  @keyframes wave{
+    0%,40%,100%{
+        transform: translateY(0);
+        color: rgb(0, 204, 255);
+    }
+    20%{
+        transform: translateY(-20px);
+        color: rgba(116, 18, 207, 0.747);
+    }
+  }
+.container3{
+    display: flex;
+    flex-direction: row;
+
+}
+.sub3{
+    margin: 56px 149px 9px 93px;
+    width: 585px;
+}
+.artcls{
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+    margin: 3em 3em 5em 0em;
+    padding: 2rem;
+    width: 35rem;
+    
+  }
+  .b{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 1em 0 0;
+    font-size: .95em;
+  }
+.sub4{
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    width: 481px;
+    height: 850px;
+}
+.buttons{
+    margin-bottom:19px;
+    display: flex;
+    flex-direction: column;
+}
+.bt1,.l1{
+    display: flex;
+    flex-direction: row;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+.bts{
+        font-size: 14px;
+        margin: .8em 1em .8em 0;
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        padding: 11px 16px 11px 16px;
+        border-radius: 18px;
+        background-color: #ebe9e9;
+        border: 0px;
+        cursor: pointer;
+        font-weight:bold;
+}
+.strt{
+
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3em;
+    margin: 6em 0 1.7em 0em;
+}
+.line{
+    
+    width: 367px;
+    margin: 16px 0px 16px 10px;
+}
+.l2{
+    font-size:15px;
+    margin-left:19px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom:19px;
+    
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-bottom: .5em;
+    text-align: justify;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: .5em;
+}
